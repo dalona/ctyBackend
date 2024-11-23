@@ -1,4 +1,4 @@
-// src/latitude/latitude.controller.ts
+
 import { Controller, Post, Body, Put, Param, Get, NotFoundException, Query } from '@nestjs/common';
 import { LatitudeService } from './latitude.service';
 import { CreateLatitudeDto } from './dto/create-latitude.dto';

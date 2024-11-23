@@ -3,7 +3,7 @@ import { ContactsService } from './contacts.service';
 import { ContactsController } from './contacts.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import Contact from './entities/contact.entity';
-import User from 'src/users/entities/user.entity';
+import User from '../users/entities/user.entity';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Contact, User])],

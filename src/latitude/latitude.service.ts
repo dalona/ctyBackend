@@ -4,7 +4,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { CreateLatitudeDto } from './dto/create-latitude.dto';
 import { UpdateLatitudeDto } from './dto/update-latitude.dto';
 import { Latitude } from './entities/latitude.entity';
-import Contact from 'src/contacts/entities/contact.entity';
+import Contact from '../contacts/entities/contact.entity';
 
 @Injectable()
 export class LatitudeService {

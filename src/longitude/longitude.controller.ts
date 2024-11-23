@@ -1,4 +1,3 @@
-// src/longitude/longitude.controller.ts
 import { Controller, Post, Body, Put, Get, Param, BadRequestException, NotFoundException, Query } from '@nestjs/common';
 import { LongitudeService } from './longitude.service';
 import { CreateLongitudeDto } from './dto/create-longitude.dto';

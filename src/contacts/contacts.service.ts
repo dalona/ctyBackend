@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 import Contact from './entities/contact.entity';
 import { CreateContactDto } from './dto/create-contact.dto';
 import { UpdateContactDto } from './dto/update-contact.dto';
-import User from 'src/users/entities/user.entity';
+import User from '../users/entities/user.entity';
 
 @Injectable()
 export class ContactsService {
